@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>📸</title>
+    <script type="text/javascript" src="https://unpkg.com/webcam-easy/dist/webcam-easy.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+     <h2>Web<span>Cam</span> Go.</h2>
+     <video id="webcam" autoplay playsinline></video>
+     <div class="btn">
+         <a download onclick="takeSnap()">Snap</a>
+     </div>
+     <canvas id="canvas"></canvas>
+
+   </div>
+</body>
+<script src="app.js"></script>
+</html>
